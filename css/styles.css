@@ -12845,12 +12845,59 @@ header.masthead .h1 {
   opacity: 1;
 }
 
+.carousel {
+  padding-bottom: 30px;
+}
 .carousel-control-next-icon {
   background-image: url(../img/right.png);
 }
+
 .carousel-control-prev-icon {
   background-image: url(../img/left.png);
 }
+
 .carousel-indicators [data-bs-target] {
   background-color: black;
+}
+
+.info__card {
+  display: grid;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.info__card-card {
+  text-align: center;
+}
+
+.info__card-img {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.info__card-svg {
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+
+.card__title {
+  font-size: 16px;
+}
+
+.card__text {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.info__card-card h3 {
+  margin-top: 10px; 
+}
+
+@media screen and (min-width: 780px) {
+  .info__card {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
