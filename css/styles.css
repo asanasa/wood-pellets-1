@@ -12736,7 +12736,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/header-img.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/header-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12859,6 +12859,7 @@ header.masthead .h1 {
 .carousel-indicators [data-bs-target] {
   background-color: black;
 }
+
 
 .info__card {
   display: grid;
